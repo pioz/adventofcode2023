@@ -19,7 +19,7 @@ sum = input.each_line.sum do |line|
 		str_to_int_map[digit] || digit
 	end
 
-	(digits[0] + digits[-1]).to_i
+	(digits.first + digits.last).to_i
 end
 
 puts sum
